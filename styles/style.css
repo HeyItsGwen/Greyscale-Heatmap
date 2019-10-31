@@ -63,11 +63,11 @@ article {
   color: white;
 }
 
-/*GRID TWO*/
+/* GRID TWO */
 
 #grid2 {
   display: grid;
-  grid-template: repeat(6, 300px) 150px 650px/repeat(3, 1fr); 
+  grid-template: repeat(6, 300px) 150px 650px/repeat(3, 1fr);
   gap: 5px;
   margin-bottom: 5px;
 }
@@ -172,7 +172,7 @@ article {
   align-items: center;
 }
 
-/*GRID THREE*/
+/* GRID THREE */
 
 #grid3 {
   display: grid;
