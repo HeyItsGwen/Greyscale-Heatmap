@@ -55,6 +55,41 @@ body {
   border: 1px solid rgb(121, 119, 119);
 }
 
+#fauna {
+  grid-row: 2/4;
+}
+
+#faunaAd {
+  background-color: rgb(153, 153, 153);
+  height: 50%;
+  border: 1px solid rgb(70, 70, 70);
+}
+
+#grid2 .redSquare {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  border: 1px solid grey;
+  background-color: rgb(168, 168, 168);
+}
+
+/* WRITERS */
+
+#writersOfWeek {
+  display: grid;
+  grid-template: 100px repeat(3, 475px) / repeat(2, 1fr);
+  gap: 5px;
+}
+
+#writersOfWeek article {
+  background-color: rgb(165, 165, 165);
+  border: 1px solid rgb(112, 112, 112);
+}
+
+#writersOfWeek article:first-child {
+  grid-column: 1 / span 2;
+  height: 100px;
+}
+
 /* FOOTER */
 
 footer {
