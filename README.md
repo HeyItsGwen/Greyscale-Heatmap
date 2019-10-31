@@ -9,7 +9,7 @@
 
 ## About the project
 
-![Screenshot Image](images/screenshotHeatmap.PNG)
+![Screenshot Image](images/screenShot.JPG)
 
 This project was built by Gwen and Ara for the 'Greyscale Heatmap' project in the Microverse program. It is built with HTML and CSS using pair programming and the driver/navigator method. This is a greyscale heatmap of the elements and layout of this Smashing Magazine website: https://www.smashingmagazine.com/.
 
