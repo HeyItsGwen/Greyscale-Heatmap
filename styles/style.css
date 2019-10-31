@@ -1,0 +1,38 @@
+/* GLOBAL SELECTORS */
+
+body {
+  margin: 0;
+}
+
+/* NAV */
+
+#topNav {
+  width: 100%;
+  height: 139px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  border-bottom: 2px solid rgb(39, 39, 39);
+  background-color: rgb(92, 92, 92);
+  font-size: 1.5em;
+  color: white;
+}
+
+#topNav div {
+  display: flex;
+  align-items: center;
+}
+
+/* MAIN GRID */
+
+
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 732px;
+  border-top: 2px solid rgb(39, 39, 39);
+  background-color: rgb(92, 92, 92);
+}
