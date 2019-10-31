@@ -20,6 +20,11 @@ article {
   color: white;
 }
 
+.hide {
+  position: absolute;
+  visibility: hidden;
+}
+
 /* NAV */
 
 #topNav {
