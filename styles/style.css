@@ -1,4 +1,5 @@
 /* GLOBAL SELECTORS */
+
 * {
   box-sizing: border-box;
 }
@@ -11,6 +12,12 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bubbles {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.8em;
+  color: white;
 }
 
 /* NAV */
@@ -34,11 +41,13 @@ article {
 }
 
 /* GRID ONE */
+
 #grid1 {
   display: grid;
   grid-template: 493px 493px/1fr 1fr;
   width: 100%;
   background-color: rgb(148, 144, 144);
+  margin-bottom: 5px;
 }
 
 #grid1 article {
@@ -50,10 +59,12 @@ article {
 }
 
 /*GRID TWO*/
+
 #grid2 {
   display: grid;
   grid-template: repeat(6, 300px) 150px 650px/repeat(3, 1fr); 
   gap: 5px;
+  margin-bottom: 5px;
 }
 
 #grid2 article {
@@ -69,6 +80,9 @@ article {
   background-color: rgb(153, 153, 153);
   height: 50%;
   border: 1px solid rgb(70, 70, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #redSquare1 {
@@ -76,6 +90,9 @@ article {
   grid-row: 2/4;
   border: 1px solid grey;
   background-color: rgb(95, 95, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #longer {
@@ -87,18 +104,27 @@ article {
   grid-row: 5/7;
   border: 1px solid grey;
   background-color: rgb(95, 95, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #whiteBlock1 {
   grid-column: span 3;
   background-color: rgb(228, 226, 226);
   border: 1px solid rgb(48, 48, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #greenBlock {
   grid-column: span 3;
   background-color: rgb(61, 60, 60);
   border: 1px solid rgb(48, 48, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* WRITERS */
@@ -125,6 +151,9 @@ article {
   background-color: rgb(228, 226, 226);
   border: 1px solid rgb(48, 48, 48);
   margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #redBlock {
@@ -133,31 +162,45 @@ article {
   background-color: rgb(167, 165, 165);
   border: 1px solid rgb(48, 48, 48);
   margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*GRID THREE*/
+
 #grid3 {
   display: grid;
   grid-template: repeat(2, 600px) 150px / repeat(3, 1fr);
   width: 100%;
   gap: 5px;
+  margin-bottom: 5px;
 }
 
 #grid3 div {
   background-color: rgb(221, 221, 221);
   border: 1px solid rgb(112, 112, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #redSquare3 {
   grid-column: 2/4;
   background-color: rgb(65, 65, 65) !important;
   border: 1px solid rgb(48, 48, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #whiteBlock3 {
   grid-column: 1/4;
   background-color: rgb(228, 226, 226) !important;
   border: 1px solid rgb(48, 48, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* FOOTER */
@@ -167,4 +210,8 @@ footer {
   height: 732px;
   border-top: 2px solid rgb(39, 39, 39);
   background-color: rgb(92, 92, 92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
