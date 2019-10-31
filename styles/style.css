@@ -40,6 +40,13 @@ article {
   color: white;
 }
 
+footer div {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #topNav div {
   display: flex;
   align-items: center;
@@ -222,9 +229,4 @@ footer {
   flex-direction: column;
 }
 
-footer div {
-  display: flex;
-  width: 80%;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
