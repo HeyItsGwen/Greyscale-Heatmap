@@ -1,4 +1,7 @@
 /* GLOBAL SELECTORS */
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -24,9 +27,33 @@ body {
   align-items: center;
 }
 
-/* MAIN GRID */
+/* GRID ONE */
+#grid1 {
+  display: grid;
+  grid-template: 493px 493px/1fr 1fr;
+  width: 100%;
+  background-color: rgb(148, 144, 144);
+}
 
+#grid1 article {
+  display: flex;
+  border: 2px solid rgb(68, 67, 67);
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 
+/*GRID TWO*/
+#grid2 {
+  display: grid;
+  grid-template: repeat(12, 300px)/repeat(3, 1fr); 
+  gap: 5px;
+}
+
+#grid2 article {
+  background-color: rgb(235, 232, 232);
+  border: 1px solid rgb(121, 119, 119);
+}
 
 /* FOOTER */
 
