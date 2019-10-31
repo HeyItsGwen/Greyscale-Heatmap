@@ -221,3 +221,10 @@ footer {
   color: white;
   flex-direction: column;
 }
+
+footer div {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+}
